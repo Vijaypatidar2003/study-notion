@@ -1,0 +1,20 @@
+@talwind base;
+@talwind components;
+@talwind utilities;
+
+html,body{
+  overflow-x: hidden;
+}
+
+.home_bg{
+  background: url('../src/assests/images/bghome.svg');
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 9px solid #f1f2ff;
+  animation: spinner-bulqg1 0.8s infinite linear alternate,
+    spinner-oaa3wk 1.6s infinite linear;
+}
